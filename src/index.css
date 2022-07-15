@@ -1,5 +1,23 @@
+*,*::before,*::after{
+  box-sizing: border-box;
+  font-weight: normal;
+  
+}
+
 body {
   margin: 0;
+  padding: 0;
+  background: linear-gradient(to right, #56CCF2, #2f80ED);
+  /* background-image: url(https://img.freepik.com/free-vector/blank-green-notepaper-frame_53876-115259.jpg?t=st=1657550834~exp=1657551434~hmac=52e458ad12e9f0f249a67b8007f07a5770d58121add710581afe0b26cc4870b6&w=996); */
+  /* background-image: url(https://img.freepik.com/premium-vector/back-school-background-watercolor-style_23-2148593948.jpg?w=996); */
+  /* background-image: url(https://img.freepik.com/free-vector/calculator-concept-illustration_114360-1579.jpg?t=st=1657547780~exp=1657548380~hmac=ab8e98865a05a7431211c109e0177984ffce20ab896060af3756485fe3c14592&w=740); */
+  background-image: url(https://img.freepik.com/free-photo/abstract-background-made-with-numbers_1160-206.jpg?t=st=1657547416~exp=1657548016~hmac=46c27376eb573aafcfb0e6bb94fe031428a79a97e8519c081af1228f5300a1af&w=996);
+  background-repeat: repeat-y;
+  
+  /* background-size: contain;
+  background-position: center; */
+  background-size: cover;
+  background-position: center;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
@@ -7,7 +25,3 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
